@@ -9,7 +9,7 @@ const ImageList = props => {
                     image={image} 
                 />;
     }));
-    //console.log(images);
+    console.log(images);
     return <div className="image-list"> {images}</div>;
 }
 
